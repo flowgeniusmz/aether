@@ -53,8 +53,25 @@ AETHER [CODESPACES: SUPRE...]
 │   │   ├── use-mobile.tsx
 │   └── lib
 │   │   ├── ai
+│   │   │   ├── tools
+│   │   │   │   ├── create-document.ts
+│   │   │   │   ├── get-weather.ts
+│   │   │   │   ├── request-suggestions.ts
+│   │   │   │   ├── update-document.ts
+│   │   │   ├── models.test.ts
+│   │   │   ├── models.ts
+│   │   │   ├── prompts.ts
+│   │   │   ├── providers.ts
 │   │   ├── db
+│   │   │   ├── helpers
+│   │   │   │   ├── a
+│   │   │   ├── migrations
+│   │   │   │   ├── a
+│   │   │   ├── queries.ts
+│   │   │   ├── schema.ts
+│   │   │   ├── migrate.ts
 │   │   ├── artifacts
+│   │   │   ├── server.ts
 │   │   ├── editor
 │   │   └── utils.ts
 │   │   └── constants.ts
